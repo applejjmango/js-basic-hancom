@@ -7,6 +7,8 @@ btn.addEventListener("click", () => {
   // random color
   let hexColor = "#";
 
+  // #0B4C2F
+  // #0B4C2F
   for (let i = 0; i < 6; i++) {
     const number = getRandomNumber();
     hexColor += hex[number];
